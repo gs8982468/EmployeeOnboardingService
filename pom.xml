@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.PubSubDemo</groupId>
-	<artifactId>PubSubDemo</artifactId>
+	<artifactId>GCPPubSub</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>PubSubDemo</name>
+	<name>GCPPubSub</name>
 	<description>Demo project for Spring Boot Pub Sub</description>
 	<properties>
 		<java.version>11</java.version>
