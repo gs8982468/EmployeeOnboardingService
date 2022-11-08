@@ -1,4 +1,4 @@
-package com.PubSubDemo.gateway;
+package com.employee.gateway;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.PubSubDemo.controller;
+package com.employee.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.PubSubDemo.DTO.Emloyee;
-import com.PubSubDemo.gateway.PubSubIf;
+import com.employee.DTO.Emloyee;
+import com.employee.gateway.PubSubIf;
 
 @Component
 @RestController

@@ -1,4 +1,4 @@
-package com.PubSubDemo.Configuration;
+package com.employee.Configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

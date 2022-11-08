@@ -1,18 +1,11 @@
-package com.PubSubDemo.controller;
+package com.employee.controller;
 
 import java.nio.charset.StandardCharsets;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
 import org.springframework.integration.annotation.ServiceActivator;
-import org.springframework.integration.channel.DirectChannel;
 import org.springframework.messaging.Message;
-import org.springframework.messaging.MessageChannel;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.google.cloud.spring.pubsub.core.PubSubTemplate;
-import com.google.cloud.spring.pubsub.integration.inbound.PubSubInboundChannelAdapter;
 
 @RestController
 public class SubscriberController {

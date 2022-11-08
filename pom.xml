@@ -9,11 +9,11 @@
 		<version>2.6.12</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.PubSubDemo</groupId>
-	<artifactId>GCPPubSub</artifactId>
-	<version>1.0.1</version>
-	<name>GCPPubSub</name>
-	<description>Demo project for Spring Boot Pub Sub</description>
+	<groupId>com.employee</groupId>
+	<artifactId>EmployeeOnboardingService</artifactId>
+	<version>1.0.2</version>
+	<name>ubSub</name>
+	<description>Employee onboarding service project</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud-gcp.version>3.3.0</spring-cloud-gcp.version>

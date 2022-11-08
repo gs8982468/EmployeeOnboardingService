@@ -1,17 +1,13 @@
-package com.PubSubDemo.Configuration;
+package com.employee.Configuration;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.integration.annotation.InboundChannelAdapter;
-import org.springframework.integration.annotation.Poller;
 import org.springframework.integration.channel.DirectChannel;
 import org.springframework.messaging.MessageChannel;
 
 import com.google.cloud.spring.pubsub.core.PubSubTemplate;
-import com.google.cloud.spring.pubsub.integration.AckMode;
 import com.google.cloud.spring.pubsub.integration.inbound.PubSubInboundChannelAdapter;
-import com.google.cloud.spring.pubsub.integration.inbound.PubSubMessageSource;
 import com.google.pubsub.v1.ProjectSubscriptionName;
 
 @Configuration

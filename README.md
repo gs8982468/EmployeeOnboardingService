@@ -1,4 +1,4 @@
 
 Hi
 
-This project is for GCP Pubsub Configuration
+This project is for  Pubsub Configuration
